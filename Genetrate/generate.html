@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="head">Quote generator</header>
+    <div class="generator">
+      <h3>Choose a topic below & click the select button</h3>
+      <br />
+      <input type="radio" name="input" value="love" id="love" />
+      <label for="love">Love Quotes</label> <br />
+      <br />
+      <input type="radio" name="input" value="lonely" id="lonely" />
+      <label for="lonely">Lonely Quotes</label> <br />
+      <br />
+      <input type="radio" name="input" value="stress" id="stress" />
+      <label for="stress">Stress Quotes</label> <br />
+      <br />
+      <input type="radio" name="input" value="general" id="general" />
+      <label for="general">General Quotes</label> <br />
+      <button onclick="Generate()">
+        Genetrate <br />
+        Quote
+      </button>
+      <section class="demo">
+        <h4>Generated Quote will be displayed here:</h4>
+        <h5 id="target"></h5>
+      </section>
+      <h4>Let's embrace Quote culture</h4>
+    </div>
+    <section class="gallery">
+      <img
+        class="img-1"
+        src="https://img.freepik.com/free-vector/blue-brain-background_1035-2666.jpg?ga=GA1.1.1756426119.1717703136&semt=ais_hybrid"
+        alt=""
+      />
+      <img
+        class="img-2"
+        src="https://img.freepik.com/free-vector/realistic-human-brain-infographic-with-colorful-options_23-2147589772.jpg?ga=GA1.1.1756426119.1717703136&semt=ais_hybrid"
+        alt=""
+      />
+      <img
+        class="img-3"
+        src="https://img.freepik.com/free-vector/modern-mental-health-concept-with-flat-design_23-2147882622.jpg?ga=GA1.1.1756426119.1717703136&semt=ais_hybrid"
+        alt=""
+      />
+      <img
+        class="img-4"
+        src="https://img.freepik.com/free-vector/human-brain-blue-background_23-2147537871.jpg?ga=GA1.1.1756426119.1717703136&semt=ais_hybrid"
+        alt=""
+      />
+    </section>
+    <script src="generate.js"></script>
+  </body>
+</html>
